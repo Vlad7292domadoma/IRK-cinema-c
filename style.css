@@ -2,7 +2,7 @@
 :root {
 
 
-    --scale: 20;
+    --scale: 2;
 }
 
 
@@ -22,7 +22,7 @@
     margin-top: 130px;
     margin-left: 25px;
     margin-right: 25px;
-}
+} 
 
 .topTextDiv {
     height: 130px;
@@ -41,7 +41,7 @@
 }
 
 .label {
-   
+    font-size: 1.5vw;
     margin: 0%;
     margin-left: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -56,14 +56,14 @@
 }
 
 .saveFilmsBtn {
-    font-size: 32px;
+    font-size: 1.5vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #353535;
 }
 
 .importFilmsBtn {
-    font-size: 30px;
+    font-size: 1.5vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #353535;
 }
