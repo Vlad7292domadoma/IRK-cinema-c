@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" , initial-scale=1.0>
+    <title>IRK cinema</title>
+</head>
+
+<body class="bodyClass">
+
+
+    <div class="topTextDiv">    
+        <div class="labelDiv">
+            <h3 class=label>IRK cinema</h3>
+        </div>
+        <div class="exportFilmsDiv">
+            <div class="saveFilmDiv"> <a class="saveFilmsBtn" href=#>Выгрузить список</a></div>
+            <div class="importFilmDiv"><a class="importFilmsBtn" id="importFilmsBtn" href=#>Загрузить список</a></div>
+        </div>    
+    </div>
+
+    <div class="ownDiv">
+        <div id="inputdiv">
+     <div class="addFilmTextDiv"><h4 class="addFilmText"> Добавить фильм:</h4></div>
+    <div class="addFilmDiv">            
+                 <div class="inputNameAddDiv"> <input  type="text" id="inputnm" list="variki"
+                        placeholder="Название" /></div>
+                <div class="addGenreDiv"> <select  id="inputgnr">
+                        <option value="">Жанр</option>
+                        <option value="Детектив">Детектив</option>
+                        <option value="Ужасы">Ужасы</option>
+                        <option value="Комедия">Комедия</option>
+                        <option value="Семейный">Семейный</option>
+                        <option value="Драма">Драма</option>
+                        <option value="Триллер">Триллер</option>
+                        <option value="Мелодрама">Мелодрама</option>
+                        <option value="Аниме">Аниме</option>
+                        <option value="Боевик">Боевик</option>
+                        <option value="Приключения">Приключения</option>
+                        <option value="Военный">Военный</option>
+                        <option value="Фэнтези">Фэнтези</option>
+                        <option value="Фантастика">Фантастика</option>
+                        <option value="История">История</option>
+                        <option value="Артхаус">Артхаус</option>
+                        <option value="Биография">Биография</option>
+                    </select></div>
+                <div class="addTypeDiv"><select id="inputtype">
+                        <option value="">Тип</option>
+                        <option value="Фильм">Фильм</option>
+                        <option value="Сериал">Сериал</option>
+                        <option value="Мультфильм">Мультфильм</option>
+                    </select></div>
+                 <div class="addCommDiv"><input type="text" id="inputcomm"
+                        placeholder="Комментарий" /></div>
+                <div class="addBtnDiv"><button id="addBtn" class="btnTd">Сохранить</button></div>    </div>
+</div>
+
+
+        <div id="finddiv">        
+               <div class="findTextDiv"> <h5 class="findFilmText">
+                    Подобрать фильм:</h5></div>            
+           <div class="findNameDiv"><input  list="datalistfilms" type="text" id="findnm" placeholder="Название"
+                    oninput="fndInputFunction()" />
+            <datalist id="datalistfilms"></datalist></div>
+            <div class="findGenreDiv"><select  name="" id="findgenre" id="findselectgenre">
+                    <option value="">Жанр</option>
+                    <option value="Детектив">Детектив</option>
+                    <option value="Ужасы">Ужасы</option>
+                    <option value="Комедия">Комедия</option>
+                    <option value="Семейный">Семейный</option>
+                    <option value="Драма">Драма</option>
+                    <option value="Триллер">Триллер</option>
+                    <option value="Мелодрама">Мелодрама</option>
+                    <option value="Аниме">Аниме</option>
+                    <option value="Боевик">Боевик</option>
+                    <option value="Приключения">Приключения</option>
+                    <option value="Военный">Военный</option>
+                    <option value="Фэнтези">Фэнтези</option>
+                    <option value="Фантастика">Фантастика</option>
+                    <option value="История">История</option>
+                    <option value="Артхаус">Артхаус</option>
+                    <option value="Биография">Биография</option>
+                </select></div>
+            <div class="findTypeDiv"><select  name="" id="findtype">
+                    <option value="">Тип</option>
+                    <option value="Фильм">Фильм</option>
+                    <option value="Сериал">Сериал</option>
+                    <option value="Мультфильм">Мультфильм</option>
+                </select></div>
+           <div class="findBtnDiv"><button  id="findbtn">Найти
+                </button></div>
+</div>
+
+
+
+
+
+
+<div class="contentdiv">
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-up btn-up_hide">
+
+</div>
+
+
+
+<div class="divPerehodKProsmotrennym" id="divPerehodKProsmotrennym">
+    <a href="#divSeeFilmsText" style="color: rgb(48, 48, 48); font-size: 30px;">Перейти к просмотренным:</a>
+</div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+     <link rel="stylesheet" href="style.css"> 
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
