@@ -498,10 +498,10 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100vw;
-    height: 60px;
+    width: 10vw;
+    height: 30px;
     text-align: center;
-    font-size: 11px;
+    font-size: 7px;
 
     background-color: #ff5900b2;
     border-radius: 10px;
