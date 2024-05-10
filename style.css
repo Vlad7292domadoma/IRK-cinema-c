@@ -345,7 +345,7 @@
     /* цвет фона */
     background-color: #4a4a4bf6;
     /* расстояние от правого края окна браузера */
-    left: 40vw;
+    right:  5px;
     /* расстояние от нижнего края окна браузера */
     bottom: 0;
     /* скругление верхнего левого угла */
@@ -361,15 +361,15 @@
     /* выравниваем элементы внутри элемента по центру вдоль главной оси */
     justify-content: center;
     /* ширина элемента */
-    width: 160px;
+    width: 80px;
     /* высота элемента */
-    height: 50px;
+    height: 80px;
 }
 
 .btn-up::before {
     content: "";
-    width: 50px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     background: transparent no-repeat center center;
     background-size: 100% 100%;
     background-image: url("topBtn2.svg")
