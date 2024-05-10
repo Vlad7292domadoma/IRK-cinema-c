@@ -1,10 +1,4 @@
 
-:root {
-
-
-    --scale: 2;
-}
-
 
 .bodyClass {
     background-image: linear-gradient(rgb(161, 161, 161), rgb(71, 71, 71), rgb(22, 22, 22));
@@ -41,7 +35,7 @@
 }
 
 .label {
-    font-size: 1.5vw;
+    font-size: 15px;
     margin: 0%;
     margin-left: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -56,14 +50,14 @@
 }
 
 .saveFilmsBtn {
-    font-size: 1.5vw;
+    font-size: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #353535;
 }
 
 .importFilmsBtn {
-    font-size: 1.5vw;
+    font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #353535;
 }
@@ -99,7 +93,7 @@
 }
 
 .addFilmText {
-    font-size: 37px;
+    font-size: 15pxpx;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 15px;
     text-align: center;
@@ -109,7 +103,7 @@
     width: 100.1%;
     height: 70px;
     padding: 0%;
-    font-size: 30px;
+    font-size: 15px;
     text-indent: 15px;
     box-shadow: 10px 10px 12px rgba(73, 73, 73, 0.4);
 }
@@ -118,7 +112,7 @@
     width: 100.4%;
     height: 70px;
     padding: 0%;
-    font-size: 30px;
+    font-size: 15px;
     text-indent: 15px;
     color: rgb(104, 104, 104);
     box-shadow: 10px 10px 12px rgba(73, 73, 73, 0.4);
@@ -129,7 +123,7 @@
     width: 100.4%;
     height: 70px;
     padding: 0%;
-    font-size: 30px;
+    font-size: 15px;
     text-indent: 15px;
     color: rgb(104, 104, 104);
     background-color: white;
@@ -140,7 +134,7 @@
     width: 100.1%;
     height: 70px;
     padding: 0%;
-    font-size: 30px;
+    font-size: 15px;
     text-indent: 15px;
     box-shadow: 10px 10px 12px rgba(73, 73, 73, 0.4);
 }
@@ -149,7 +143,7 @@
     width: 100.4%;
     height: 70px;
     padding: 0%;
-    font-size: 32px;
+    font-size: 16px;
     box-shadow: 10px 10px 12px rgba(73, 73, 73, 0.4);
 }
 
@@ -171,7 +165,7 @@
 }
 
 .findFilmText {
-    font-size: 36px;
+    font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0%;
     margin-bottom: 15px;
@@ -183,7 +177,7 @@
     width: 100.1%;
     height: 70px;
     padding: 0%;
-    font-size: 30px;
+    font-size: 15px;
     text-indent: 15px;
     box-shadow: 10px 10px 12px rgba(73, 73, 73, 0.4);
 
@@ -193,7 +187,7 @@
     width: 100.4%;
     height: 70px;
     padding: 0%;
-    font-size: 30px;
+    font-size: 15px;
     text-indent: 15px;
     color: rgb(104, 104, 104);
     box-shadow: 10px 10px 12px rgba(73, 73, 73, 0.4);
@@ -204,7 +198,7 @@
     width: 100.4%;
     height: 70px;
     padding: 0%;
-    font-size: 30px;
+    font-size: 15px;
     text-indent: 15px;
     color: rgb(104, 104, 104);
     box-shadow: 10px 10px 12px rgba(73, 73, 73, 0.4);
@@ -216,7 +210,7 @@
     width: 100.4%;
     height: 70px;
     padding: 0%;
-    font-size: 32px;
+    font-size: 16px;
     box-shadow: 10px 10px 12px rgba(73, 73, 73, 0.4);
 }
 
@@ -236,7 +230,7 @@
 }
 
 .zagolovokUnSeeFilmsClass {
-    font-size: 36px;
+    font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0%;
     margin-bottom: 10px;
@@ -245,7 +239,7 @@
 }
 
 .zagolovokSeeFilms {
-    font-size: 36px;
+    font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0%;
     margin-bottom: 10px;
@@ -258,7 +252,7 @@
     box-shadow: 10px 10px 12px rgba(73, 73, 73, 0.4);
 
 
-    font-size: 29px;
+    font-size: 15px;
     text-align: left;
 
 }
@@ -266,7 +260,7 @@
 .greyTr {
     background-color: #f8f8f8;
     box-shadow: 10px 10px 12px rgba(73, 73, 73, 0.4);
-    font-size: 29px;
+    font-size: 15px;
     text-align: left;
 }
 
@@ -278,7 +272,7 @@
 .td1 {
     width: 30vw;
     box-sizing: border-box;
-    font-size: 29px;
+    font-size: 15px;
     text-align: left;
     padding-left: 3px;
 
@@ -287,7 +281,7 @@
 .td2 {
     width: 15vw;
     box-sizing: border-box;
-    font-size: 29px;
+    font-size: 15px;
     text-align: left;
     padding-left: 7px;
 }
@@ -295,7 +289,7 @@
 .td3 {
     width: 15vw;
     box-sizing: border-box;
-    font-size: 29px;
+    font-size: 15px;
     text-align: left;
     padding-left: 7px;
 }
@@ -303,7 +297,7 @@
 .td4 {
     width: 30vw;
     box-sizing: border-box;
-    font-size: 29px;
+    font-size: 15px;
     text-align: left;
     padding-left: 7px;
     padding-right: 3px;
@@ -409,14 +403,14 @@
 }
 
 .divUnSeeFilmsText {
-    font-size: 45px;
+    font-size: 22px;
     text-align: center;
     padding-top: 20px;
     font-weight: 600;
 }
 
 .divSeeFilmsText {
-    font-size: 45px;
+    font-size: 22px;
     text-align: center;
     padding-top: 20px;
     font-weight: 600;
@@ -435,24 +429,24 @@
 
 .divForFilmName {
     padding-left: 12px;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 550;
 }
 
 .divForFilmGenre {
     padding-left: 12px;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .divForFilmType {
     padding-left: 12px;
-    font-size: 30px;
+    font-size: 15px;
 
 }
 
 .divForFilmComm {
     padding-left: 12px;
-    font-size: 30px;
+    font-size: 15px;
     display: inline;
 }
 
@@ -463,18 +457,18 @@
 
 .filmGenre {
     color: gray;
-    font-size: 22px;
+    font-size: 11px;
 }
 
 .filmType {
     color: gray;
-    font-size: 22px;
+    font-size: 11px;
 }
 
 .btnInTable {
     width: 90%;
     height: 90%;
-    font-size: 42px;
+    font-size: 21px;
     margin-top: 2%;
     margin-left: 6%;
 }
@@ -507,7 +501,7 @@
     width: 100vw;
     height: 60px;
     text-align: center;
-    font-size: 22px;
+    font-size: 11px;
 
     background-color: #ff5900b2;
     border-radius: 10px;
