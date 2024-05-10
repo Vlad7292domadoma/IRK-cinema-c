@@ -496,9 +496,9 @@
 
 .divPerehodKProsmotrennym {
     position: fixed;
-    left: 0;
+    left: 9vw;
     bottom: 0;
-    width: 10vw;
+    width: 80vw;
     height: 30px;
     text-align: center;
     font-size: 7px;
