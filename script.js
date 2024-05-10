@@ -657,7 +657,7 @@ window.addEventListener('scroll', function () {
 
 
 
-if (films["Непросмотренные фильмы"].length > 15) {
+if (films["Непросмотренные фильмы"].length > 9) {
     
     document.getElementById('divSeeFilmsText').style.color = 'white'
 }
