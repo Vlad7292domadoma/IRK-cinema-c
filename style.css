@@ -344,7 +344,7 @@
     /* цвет фона */
     background-color: #4a4a4bf6;
     /* расстояние от правого края окна браузера */
-    right: 20px;
+    left: 40vw;
     /* расстояние от нижнего края окна браузера */
     bottom: 0;
     /* скругление верхнего левого угла */
@@ -354,21 +354,21 @@
     /* вид курсора */
     cursor: pointer;
     /* отображение элемента как flex */
-    display: flex;
+    display: flex; 
     /* выравниваем элементы внутри элемента по центру вдоль поперечной оси */
     align-items: center;
     /* выравниваем элементы внутри элемента по центру вдоль главной оси */
     justify-content: center;
     /* ширина элемента */
-    width: 120px;
+    width: 160px;
     /* высота элемента */
-    height: 100px;
+    height: 50px;
 }
 
 .btn-up::before {
     content: "";
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 30px;
     background: transparent no-repeat center center;
     background-size: 100% 100%;
     background-image: url("topBtn2.svg")
@@ -499,7 +499,7 @@
     left: 9vw;
     bottom: 0;
     width: 80vw;
-    height: 15px;
+    height: 45px;
     text-align: center;
     font-size: 7px;
 
